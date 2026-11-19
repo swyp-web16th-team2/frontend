@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@theme {
+    /* 제목 크기 24px */
+    --text-title : 1.5rem;  
+
+    /* 제목 굵기 */
+    --font-weight-title : 700; 
+
+    /* 제목 행간 */
+    --leading-title-leading : 34px; 
+
+    /* 섹션 제목 크기 18px */
+    --text-section-title : 1.125rem; 
+
+    /* 섹션 제목 굵기 */
+    --font-weight-section-title : 700; 
+
+    /* 섹션 제목 행간 */
+    --leading-section-title : 28px; 
+
+
+    /* 본문 크기 16px */
+    --text-contents : 1rem; 
+
+    /* 본문 굵기 */
+    --font-weight-contents : 400; 
+
+    /* 본문 행간 */
+    --leading-contents : 24px; 
+
+
+    /* 버튼/라벨 크기 14px */
+    --text-button-label : 0.875rem; 
+
+    /* 버튼/라벨 굵기 */
+    --font-weight-button-label : 500; 
+
+    /* 버튼/라벨 행간 */
+    --leading-button-label : 20px; 
+
+
+    /* 보조 문구 크기 12px */
+    --text-sub-contents : 0.75rem; 
+
+    /* 보조 문구 굵기 */
+    --font-weight-sub-contents : 400; 
+
+    /* 버튼/라벨 행간 */
+    --leading-sub-contents : 18px; 
+
+    /* 버튼 hover 색상 */
+    --color-button-hover-bg : #1D4ED8; 
+
+    /* 버튼 press 색상 */
+    --color-button-pressed-bg : #1E40AF; 
+
+    /* 버튼 disabled 색상 */
+    --color-disabled-bg : #E2E8F0; 
+
+    /* 버튼 disabled 텍스트 색상 */
+    --color-disabled-color : #475569; 
+
+    /* input focus border 색상 */
+    --color-input-focus-color : #2563EB;
+
+    /* input error border 색상 */
+    --color-input-error-color : #B91C1C;
+
+}
+
+button {
+    cursor: pointer;
+}
