@@ -1,4 +1,4 @@
-# front
+# frontend
 React + Vite(TypeScript) 프론트엔드 입니다.
 
 ## 실행 순서
